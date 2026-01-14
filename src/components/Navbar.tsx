@@ -46,7 +46,7 @@ export default function Navbar() {
             </div>
 
             <span className="hidden lg:flex text-3xl font-bold pt-2">
-              Muvi<span className="text-[#FF0100]">toys</span>
+              Muvi<span className="text-red-600">toys</span>
             </span>
           </Link>
 
@@ -54,11 +54,11 @@ export default function Navbar() {
           <div className="hidden md:flex items-center gap-8 text-lg font-bold">
             <Link href="/">Anasayfa</Link>
             <Link href="/hakkimizda">Hakkımızda</Link>
-            <Link href="/iletisim">Katalog</Link>
+            <Link href="/toptan-satis">Toptan Satış</Link>
 
             <Link
               href="/cekilise-katil"
-              className="text-white py-2 px-6 rounded-xl font-semibold bg-[#FF0100] hover:bg-red-600 transition"
+              className="text-red-600 py-2 px-4 rounded-xl font-bold border-2 border-red-600"
             >
               Çekilişe Katıl
             </Link>
@@ -91,7 +91,7 @@ export default function Navbar() {
         <div className="flex flex-col items-center p-6 gap-5 font-semibold text-lg">
           <Link onClick={() => setOpen(false)} href="/">Anasayfa</Link>
           <Link onClick={() => setOpen(false)} href="/hakkimizda">Hakkımızda</Link>
-          <Link onClick={() => setOpen(false)} href="/iletisim">Katalog</Link>
+          <Link onClick={() => setOpen(false)} href="/toptan-satis">Toptan Satış</Link>
         </div>
       </div>
 

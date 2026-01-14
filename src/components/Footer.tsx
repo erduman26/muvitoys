@@ -14,22 +14,22 @@ const Footer = () => {
                         <Image
                             src="/mtlogo.png"
                             alt="muvitoyslogo"
-                            width={112}
+                            width={100}
                             height={64}
                             className="object-contain"
                             draggable="false"
                         />
                         <h1 className="text-3xl font-bold text-gray-800 px-2 mt-2 hidden lg:flex">
-                            Muvi<span className="text-[#FF0100]">toys</span>
+                            Muvi<span className="text-red-600">toys</span>
                         </h1>
                     </a>
                 
               <div className="flex justify-center items-center mt-0 pb-6 lg:mt-0 lg:pb-0 space-x-4">
-                <img src="linkedin.svg" className='w-9 h-9 p-1.5 rounded-lg flex justify-center items-center bg-[#FF0100]' alt="" />
-                <img src="youtube.svg" className='w-9 h-9 p-1.5 rounded-lg flex justify-center items-center bg-[#FF0100]' alt="" />
-                <img src="facebook.svg" className='w-9 h-9 p-1.5 rounded-lg flex justify-center items-center bg-[#FF0100]' alt="" />
-                <img src="x-twitter.svg" className='w-9 h-9 p-1.5 rounded-lg flex justify-center items-center bg-[#FF0100]' alt="" />
-                <img src="instagram.svg" className='w-9 h-9 p-1.5 rounded-lg flex justify-center items-center bg-[#FF0100]' alt="" />
+                <img src="linkedin.svg" className='w-9 h-9 p-1.5 rounded-lg flex justify-center items-center bg-red-600' alt="" />
+                <img src="youtube.svg" className='w-9 h-9 p-1.5 rounded-lg flex justify-center items-center bg-red-600' alt="" />
+                <img src="facebook.svg" className='w-9 h-9 p-1.5 rounded-lg flex justify-center items-center bg-red-600' alt="" />
+                <img src="x-twitter.svg" className='w-9 h-9 p-1.5 rounded-lg flex justify-center items-center bg-red-600' alt="" />
+                <img src="instagram.svg" className='w-9 h-9 p-1.5 rounded-lg flex justify-center items-center bg-red-600' alt="" />
               </div>
             </div>
           </div>

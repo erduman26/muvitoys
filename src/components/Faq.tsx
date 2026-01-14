@@ -58,7 +58,7 @@ const Faq = () => {
                             <div className="flex justify-between items-center cursor-pointer text-white" onClick={() => toggleFAQ(index)}>
                                 <h3 className="font-semibold text-[17px] lg:text-xl leading-5 text-gray-800 pt-2">{faq.question}</h3>
                                 <div>
-                                    {activeIndex === index ? <HiMiniChevronUp className='bg-[#FF0100] rounded-lg w-8 h-8' /> : <HiMiniChevronDown className='bg-red-600 rounded-lg w-8 h-8' />}
+                                    {activeIndex === index ? <HiMiniChevronUp className='bg-red-600 rounded-lg w-8 h-8' /> : <HiMiniChevronDown className='bg-red-600 rounded-lg w-8 h-8' />}
                                 </div>
                             </div>
                             {activeIndex === index && (

@@ -12,7 +12,7 @@ const Hero = () => {
                   Yeni Nesil Figür Dünyası!
                 </h1>
                 <div className="relative inline-flex">
-                    <span className="absolute -inset-x-1.5 rounded-lg top-2.5 xl:top-3 border-b-[32px] sm:border-b-[36px] md:border-b-[36px] lg:border-b-[49px] border-[#FF0100]" />
+                    <span className="absolute -inset-x-1.5 rounded-lg top-2.5 xl:top-3 border-b-[32px] sm:border-b-[36px] md:border-b-[36px] lg:border-b-[49px] border-red-600" />
                     <p className="relative text-xl font-bold text-white sm:text-2xl lg:text-3xl xl:text-4xl lg:pt-4 pt-3">Sende Muvitoys Aliesine Katıl!</p>
                   </div>
                 <p className="mt-4 lg:mt-8 text-base lg:text-lg xl:text-xl text-gray-800 font-semibold ">Muvitoys, 3D yazıcı teknolojisi ile üretilen dekoratif ve koleksiyon figürleri sunar. Her figür tek tek üretilir, özenle temizlenir ve sergilenmeye hazır hale getirilir.</p>
