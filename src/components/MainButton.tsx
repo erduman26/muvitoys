@@ -5,7 +5,7 @@ export default function MainButton() {
         target="_blank"
         className="w-full"
       >
-        <div className="mt-4 w-60 bg-red-600 text-white py-4 rounded-xl text-center text-base font-bold shadow-lg active:scale-[0.98] transition">
+        <div className="mt-4 w-60 bg-red-600 text-white py-2.5 md:py-4 rounded-xl text-center text-base font-bold shadow-lg active:scale-[0.98] transition">
           Dolap Mağazamı Ziyaret Et
         </div>
       </a>
