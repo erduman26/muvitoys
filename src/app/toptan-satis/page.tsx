@@ -4,19 +4,15 @@ import { useState } from "react";
 import Image from "next/image";
 
 const images = [
-  "/Ayicik.webp",
-  "/BeyazCanavar.webp",
-  "/Boga.webp",
-  "/KirmiziDinazor.webp",
-  "/KirmiziKertenkele.webp",
-  "/MaskeliTilki.webp",
-  "/SariKaplan.webp",
-  "/SiyahKertenkele.webp",
-  "/Tukan.webp",
-  "/TuruncuKertenkele.webp",
-  "/TuruncuTilki.webp",
-  "/Unicorn.webp",
-  "/YesilDinazor.webp",
+  "/1.webp",
+  "/2.webp",
+  "/3.webp",
+  "/4.webp",
+  "/5.webp",
+  "/6.webp",
+  "/7.webp",
+  "/8.webp",
+  "/9.webp",
 ];
 
 const ToptanSatis = () => {
@@ -55,8 +51,8 @@ const ToptanSatis = () => {
       </div>
 
       {/* Görsel Galeri */}
-      <div className="max-w-7xl mx-auto px-4 xl:px-0 py-6">
-        <div className="grid grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
+      <div className="max-w-7xl mx-auto px-4 xl:px-0 py-4 lg:py-6">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6">
           {images.map((src, index) => (
             <div
               key={index}
