@@ -3,7 +3,7 @@ import MainButton from "./MainButton";
 const Hero = () => {
   return (
     
-    <div className='mx-2 2xl:mx-28 mt-20 md:mt-24 lg:mt-32 xl:mt-42'>
+    <div className='mx-2 2xl:mx-28 mt-20 md:mt-24 lg:mt-32 xl:mt-38'>
         <section className="pb-2 pt-2 md:pt-0">
           <div className="px-2 sm:px-2">
             <div className="grid items-center grid-cols-1 sm:gap-12 gap-4 lg:grid-cols-2">
@@ -22,9 +22,9 @@ const Hero = () => {
               {/* SAĞ TARAF (GÖRSEL) */}
               <div className="order-1 lg:order-2 flex justify-center lg:justify-end">
                 <img
-                  src="/ezgif-22bcb5b183b6d835.gif"
+                  src="/figürcük.webp"
                   alt="Muvitoys Banner"
-                  className="w-full rounded-4xl max-h-[225px] sm:max-h-[250px] md:max-h-[400px] h-full object-cover object-center"
+                  className="w-full rounded-xl h-full object-container object-center"
                   draggable={false}
                 />
               </div>

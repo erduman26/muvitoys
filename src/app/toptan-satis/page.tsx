@@ -30,7 +30,7 @@ const ToptanSatis = () => {
       </div>
 
       {/* Sonsuz kayan yazı alanı */}
-      <div className="w-full inline-flex flex-nowrap overflow-hidden bg-red-700 py-1">
+      <div className="w-full inline-flex flex-nowrap overflow-hidden bg-red-700 py-2">
         <ul className="flex items-center animate-infinite-scroll whitespace-nowrap">
           <li className="mx-8 text-white font-semibold text-sm sm:text-base md:text-lg">
             🤙 Toptan anahtarlık siparişi vermek için Muvitoys Instagram hesabımız üzerinden bize ulaşabilirsiniz.
